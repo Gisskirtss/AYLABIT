@@ -1,0 +1,52 @@
+body {
+    background-color: #ffcccb;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e63946;
+    font-size: 2.5em;
+}
+
+.message {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.yes-button {
+    background-color: #f1faee;
+    color: #1d3557;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.yes-button:hover {
+    background-color: #a8dadc;
+}
+
+.response {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #457b9d;
+}
+
+.hidden {
+    display: none;
+}
